@@ -1,0 +1,29 @@
+{
+  "name": "promisify-async",
+  "version": "1.0.0",
+  "description": "Take a request with an asynchronous response and turn it into a promise",
+  "main": "promisify.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cedricf/promisify-async.git"
+  },
+  "keywords": [
+    "request",
+    "response",
+    "async",
+    "promise",
+    "callback"
+  ],
+  "author": "Cedric Franz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cedricf/promisify-async/issues"
+  },
+  "homepage": "https://github.com/cedricf/promisify-async#readme",
+  "dependencies": {
+    "jest": "^24.9.0"
+  }
+}
