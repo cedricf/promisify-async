@@ -62,6 +62,8 @@ allPromises.push(promisifyAsync.createPromise(correlationId1));
 allPromises.push(promisifyAsync.createPromise(correlationId1));
 ```
 
+```
 Promise.all(allPromises).then( (responses) => {
 // process the array of responses
 });
+```
